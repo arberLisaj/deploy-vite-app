@@ -19,6 +19,9 @@ header {
   margin: auto;
   justify-content: space-between;
 }
+header a{
+  text-decoration: none;
+}
 .header-wrapper {
   position: fixed;
   width: 100%;
@@ -43,8 +46,8 @@ main {
   background-color: var(--blue-clr);
   min-height: 100vh;
   padding-inline: 10px;
-  padding-top: 60px;
-  padding-bottom: 100px;
+  padding-block: 70px 100px;
+  
 }
 section#introduction {
   max-width: 1110px;
@@ -63,16 +66,20 @@ section#introduction p {
   font-size: 18px;
   max-width: 500px;
 }
-section#introduction button {
+button {
   border: none;
   color: var(--blue-clr);
   background-color: var(--white-clr);
   font-weight: 500;
   border-radius: 7px;
-  font-size: 18px;
+  font-size: 15px;
   padding: 13px 35px;
   margin-top: 1.3em;
   cursor: pointer;
+}
+button a{
+  color: inherit;
+  text-decoration: none;
 }
 
 hr {
@@ -82,7 +89,7 @@ hr {
   margin: auto;
   border-radius: 10px;
   background-color: white;
-  margin-block: 3em;
+  margin-block: 3.8em;
 }
 section#documentation {
   background-color: var(--white-clr);
