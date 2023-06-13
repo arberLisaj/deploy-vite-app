@@ -7,7 +7,7 @@ const App = () => {
       <div className="header-wrapper">
         <header>
           <div className="logo-container">
-          <a href="/">  <img src={Illustration} alt="website logo" /></a>
+          <img src={Illustration} alt="website logo" />
             <h1>Vite & Github</h1>
           </div>
           <p>
