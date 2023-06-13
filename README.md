@@ -71,7 +71,7 @@ export default defineConfig({
 ## And we are set configuring the files next we need to give permission to github actions doing the following steps: 
 
 1. Go to the repository that you want to deploy for example :  ***arberlisaj/deploy-vite-app***
-2. Then ***settings/Actions/General/Workflow permissions*** ```Read and write permisssion``` should be checked . Save and then go back to your repository 
+2. Then ***settings/Actions/General/Workflow permissions*** ```Read and write permission``` should be checked . Save and then go back to your repository 
 3. There should be some failed jobs so you want to ***Re-Run all jobs*** and the build and deployment will be completed succesfully 
-4. To Deploy your repo / app with github pages go to  ***settings/Pages/Branch*** select ```hg-pages``` and the folder should be ```/(root)
+4. To Deploy your repo / app with github pages go to  ***settings/Pages/Branch*** select ```hg-pages``` and the folder should be ```/(root)```
 5. Click Save and your project is now hosted with github pages ***refresh the page and your page link will appear***
