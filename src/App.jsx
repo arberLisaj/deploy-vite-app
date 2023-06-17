@@ -64,7 +64,7 @@ const App = () => {
 
           <h3>
             And we are set configuring the files next we need to give permission
-            to github actions doing the following steps:
+            to github actions following thesesteps:
           </h3>
           <ol>
             <li>
