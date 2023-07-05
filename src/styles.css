@@ -8,7 +8,7 @@
   scroll-margin-top: 80px;
 }
 :root {
-  --blue-clr: #1a73e8;
+  --blue-clr: #1263cd;
   --white-clr: rgba(255, 255, 255, 0.947);
   --black-clr: #4a4a4a;
 }
@@ -44,16 +44,14 @@ header h1 {
 main {
   color: var(--white-clr);
   background-color: var(--blue-clr);
-  min-height: 100vh;
-  /* padding-inline: 10px; */
-  padding-block: 70px 0;
 }
 section#introduction {
+  min-height: 100vh;
   max-width: 1110px;
   padding-inline: 20px;
   margin: auto;
-
-  padding-top: 4em;
+  display: flex;
+  align-items: center;
 }
 section#introduction h1 {
   max-width: 590px;
@@ -76,27 +74,19 @@ button {
   margin-top: 1.3em;
   cursor: pointer;
 }
-button:hover{
-  opacity: .8;
+button:hover {
+  opacity: 0.8;
 }
 button a {
   color: inherit;
   text-decoration: none;
 }
 
-hr {
-  border: none;
-  height: 1px;
-  width: 80%;
-  margin: auto;
-  border-radius: 10px;
-  background-color: var(--white-clr);
-  margin-block: 3.8em;
-}
+
 section#documentation {
   background-color: var(--white-clr);
   color: var(--black-clr);
-  padding:50px 35px;
+  padding: 50px 35px;
   max-width: 1100px;
   margin: auto;
   border-radius: 10px;
@@ -117,20 +107,12 @@ section#documentation li {
 footer {
   background-color: var(--white-clr);
   color: var(--black-clr);
-  margin-top: 55px;
-  padding: 25px 10px 30px;
   text-align: center;
+  padding: 30px 10px;
+  margin-top: 60px;
 }
-footer ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  gap: 10px;
-  flex-wrap: wrap;
-  text-transform: capitalize;
-  font-weight: bold;
-}
-footer ul li:hover{
+
+footer ul li:hover {
   text-decoration: underline;
   cursor: pointer;
 }

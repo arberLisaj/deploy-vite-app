@@ -17,16 +17,18 @@ const App = () => {
       </div>
       <main>
         <section id="introduction">
-          <h1>How to deploy your Vite App on GitHup Pages using Actions ?</h1>
-          <p>
-            You can use GitHub Pages to showcase some open source projects, host
-            a blog, or even share your resume.
-          </p>
-          <button>
-            <a href="#documentation">Get Started</a>
-          </button>
+          <div className="introduction-content">
+            {" "}
+            <h1>How to deploy your Vite App on GitHup Pages using Actions ?</h1>
+            <p>
+              You can use GitHub Pages to showcase some open source projects,
+              host a blog, or even share your resume.
+            </p>
+            <button>
+              <a href="#documentation">Get Started</a>
+            </button>
+          </div>
         </section>
-        <hr />
         <section id="documentation">
           <h1>Documentation</h1>
           <h3>
@@ -42,12 +44,12 @@ const App = () => {
             </li>
             <li>
               {" "}
-              Inside deploy.yml use this code:{" "}
+              Inside deploy.yml paste this code :{" "}
               <a
                 target="_blank"
                 href="https://github.com/arberLisaj/deploy-vite-app/blob/main/.github/workflows/deploy.yml"
               >
-                Click here for the github code
+                github code
               </a>
             </li>
             <li>
@@ -94,13 +96,7 @@ const App = () => {
         </section>
 
         <footer>
-          <ul>
-            <li>facebook</li>
-            <li>twitter</li>
-            <li>github</li>
-            <li>instagram</li>
-          </ul>
-          <p> &copy; Arberlisaj | All rights reserved</p>
+          <p>Copyright &copy; All rights reserved</p>
         </footer>
       </main>
     </>
